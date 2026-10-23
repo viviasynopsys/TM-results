@@ -1,0 +1,12 @@
+convergence, lumerical_R, thetas [0.0, -14.0, 7.5] deg, lambda 0.55 um
+referee exact   [0.804947, 0.023944, 0.100148]
+referee linear  [0.805032, 0.027415, 0.100388]
+harmonics h=3 l=80: [0.804816, 0.023902, 0.100107]
+harmonics h=5 l=80: [0.804816, 0.023902, 0.100107]
+harmonics h=9 l=80: [0.804816, 0.023902, 0.100107]
+harmonics h=13 l=80: [0.804816, 0.023902, 0.100107]
+layers per period h=9 l=10: [0.796427, 0.021413, 0.097492]
+layers per period h=9 l=20: [0.80284, 0.023289, 0.099465]
+layers per period h=9 l=40: [0.804422, 0.023779, 0.099974]
+layers per period h=9 l=80: [0.804816, 0.023902, 0.100107]
+layers per period h=9 l=160: [0.804914, 0.023933, 0.100138]

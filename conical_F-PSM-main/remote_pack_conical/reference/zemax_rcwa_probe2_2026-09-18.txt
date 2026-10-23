@@ -1,0 +1,26 @@
+(a) order 0 / energy
+   order 0 only, Test Mode=1 Only these orders=16: (R,T)=[[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
+   order 1 only, Test Mode=1 Only these orders=16: (R,T)=[[0.7965196, 0.0], [0.0245959, 0.0], [0.0978717, 0.0]]
+   orders -5..5,  Test Mode=1 Only these orders=16: (R,T)=[[0.7965196, 0.0], [0.0245959, 0.0], [0.0978717, 0.0]]
+   order 0 only, Test Mode=1 Only these orders=0: (R,T)=[[0.0001669, 0.2030986], [1e-06, 0.9753517], [2e-06, 0.9017357]]
+   order 1 only, Test Mode=1 Only these orders=0: (R,T)=[[0.7965196, 2.99e-05], [0.0245959, 6.5e-06], [0.0978717, 0.0002481]]
+   orders -5..5,  Test Mode=1 Only these orders=0: (R,T)=[[0.7967944, 0.2032056], [0.0246134, 0.9753866], [0.0979306, 0.9020694]]
+   order 0 only, Test Mode=0 Only these orders=16: (R,T)=[[0.0, 0.0], [0.0, 0.0], [0.0, 0.0]]
+   order 1 only, Test Mode=0 Only these orders=16: (R,T)=[[0.7965196, 0.0], [0.0245959, 0.0], [0.0978717, 0.0]]
+   orders -5..5,  Test Mode=0 Only these orders=16: (R,T)=[[0.7965196, 0.0], [0.0245959, 0.0], [0.0978717, 0.0]]
+   order 0 only, Test Mode=0 Only these orders=0: (R,T)=[[0.0001669, 0.2030986], [1e-06, 0.9753517], [2e-06, 0.9017357]]
+   order 1 only, Test Mode=0 Only these orders=0: (R,T)=[[0.7965196, 2.99e-05], [0.0245959, 6.5e-06], [0.0978717, 0.0002481]]
+   orders -5..5,  Test Mode=0 Only these orders=0: (R,T)=[[0.7967944, 0.2032056], [0.0246134, 0.9753866], [0.0979306, 0.9020694]]
+(b) polarisation, Layer per period 10
+   TE Jx=1: [[0.7965196, 0.0], [0.0245959, 0.0], [0.0978717, 0.0]]
+   TM Jy=1: [[0.7272546, 0.0], [0.0245981, 0.0], [0.052048, 0.0]]
+   random pol: [[0.7668735, 0.0], [0.0245976, 0.0], [0.0746366, 0.0]]
+(c) Layer per period 160 / 320
+   Layer per period 160: [[0.8049992, 0.0], [0.0274035, 0.0], [0.1003778, 0.0]]
+   Layer per period 320: [[0.8050238, 0.0], [0.0274122, 0.0], [0.1003853, 0.0]]
+(d) thickness sensitivity at Layer per period 40
+   Holo Thic 5.8413 um: [[0.7905328, 0.0], [0.0391836, 0.0], [0.0934328, 0.0]]
+   Holo Thic 6.0 um: [[0.8045072, 0.0], [0.0272287, 0.0], [0.1002376, 0.0]]
+   Holo Thic 6.036 um: [[0.8075411, 0.0], [0.0247529, 0.0], [0.1014523, 0.0]]
+   Holo Thic 6.2 um: [[0.8207962, 0.0], [0.0147535, 0.0], [0.1053855, 0.0]]
+*** FRU__delta_init(): Attempt to start when running!

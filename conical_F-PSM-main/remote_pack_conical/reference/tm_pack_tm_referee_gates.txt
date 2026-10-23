@@ -1,0 +1,248 @@
+G1  TE lossless path against rcwa_te.solve (must be bit-identical)
+PASS  G1 lumerical_R th=+0.00 exact                                  bit-identical True  max|diff| 0.0e+00
+PASS  G1 lumerical_R th=+0.00 linear                                 bit-identical True  max|diff| 0.0e+00
+PASS  G1 lumerical_R th=-14.00 exact                                 bit-identical True  max|diff| 0.0e+00
+PASS  G1 lumerical_R th=-14.00 linear                                bit-identical True  max|diff| 0.0e+00
+PASS  G1 lumerical_R th=+7.50 exact                                  bit-identical True  max|diff| 0.0e+00
+PASS  G1 lumerical_R th=+7.50 linear                                 bit-identical True  max|diff| 0.0e+00
+PASS  G1 lumerical_R th=-28.00 exact                                 bit-identical True  max|diff| 0.0e+00
+PASS  G1 lumerical_R th=-28.00 linear                                bit-identical True  max|diff| 0.0e+00
+PASS  G1 lumerical_R th=+20.00 exact                                 bit-identical True  max|diff| 0.0e+00
+PASS  G1 lumerical_R th=+20.00 linear                                bit-identical True  max|diff| 0.0e+00
+PASS  G1 lumerical_T th=+0.00 exact                                  bit-identical True  max|diff| 0.0e+00
+PASS  G1 lumerical_T th=+0.00 linear                                 bit-identical True  max|diff| 0.0e+00
+PASS  G1 lumerical_T th=+5.00 exact                                  bit-identical True  max|diff| 0.0e+00
+PASS  G1 lumerical_T th=+5.00 linear                                 bit-identical True  max|diff| 0.0e+00
+PASS  G1 lumerical_T th=+28.00 exact                                 bit-identical True  max|diff| 0.0e+00
+PASS  G1 lumerical_T th=+28.00 linear                                bit-identical True  max|diff| 0.0e+00
+PASS  G1 lumerical_T th=+40.00 exact                                 bit-identical True  max|diff| 0.0e+00
+PASS  G1 lumerical_T th=+40.00 linear                                bit-identical True  max|diff| 0.0e+00
+PASS  G1 zemax_kba_R th=-45.00 exact                                 bit-identical True  max|diff| 0.0e+00
+PASS  G1 zemax_kba_R th=-45.00 linear                                bit-identical True  max|diff| 0.0e+00
+PASS  G1 zemax_kba_R th=-22.50 exact                                 bit-identical True  max|diff| 0.0e+00
+PASS  G1 zemax_kba_R th=-22.50 linear                                bit-identical True  max|diff| 0.0e+00
+PASS  G1 zemax_kba_R th=+0.00 exact                                  bit-identical True  max|diff| 0.0e+00
+PASS  G1 zemax_kba_R th=+0.00 linear                                 bit-identical True  max|diff| 0.0e+00
+PASS  G1 zemax_kba_R th=+10.00 exact                                 bit-identical True  max|diff| 0.0e+00
+PASS  G1 zemax_kba_R th=+10.00 linear                                bit-identical True  max|diff| 0.0e+00
+PASS  G1 unslanted_T th=+33.86 exact                                 bit-identical True  max|diff| 0.0e+00
+PASS  G1 unslanted_T th=+33.86 linear                                bit-identical True  max|diff| 0.0e+00
+PASS  G1 unslanted_T th=+36.00 exact                                 bit-identical True  max|diff| 0.0e+00
+PASS  G1 unslanted_T th=+36.00 linear                                bit-identical True  max|diff| 0.0e+00
+PASS  G1 unslanted_T th=+30.00 exact                                 bit-identical True  max|diff| 0.0e+00
+PASS  G1 unslanted_T th=+30.00 linear                                bit-identical True  max|diff| 0.0e+00
+PASS  G1 unslanted_T_rot5 th=+38.86 exact                            bit-identical True  max|diff| 0.0e+00
+PASS  G1 unslanted_T_rot5 th=+38.86 linear                           bit-identical True  max|diff| 0.0e+00
+PASS  G1 unslanted_T_rot5 th=+41.00 exact                            bit-identical True  max|diff| 0.0e+00
+PASS  G1 unslanted_T_rot5 th=+41.00 linear                           bit-identical True  max|diff| 0.0e+00
+PASS  G1 unslanted_T_rot5 th=+35.00 exact                            bit-identical True  max|diff| 0.0e+00
+PASS  G1 unslanted_T_rot5 th=+35.00 linear                           bit-identical True  max|diff| 0.0e+00
+G2  1/eps closed-form harmonics against a 8192-point FFT
+PASS  G2 1/eps exact n0g=1.5 n1g=0.04                                max|diff| 2.47e-15  (tol 1e-13)
+PASS  G2 eps   exact n0g=1.5 n1g=0.04                                max|diff| 8.96e-18  (tol 1e-13)
+PASS  G2 1/eps linear n0g=1.5 n1g=0.04                               max|diff| 5.55e-17  (tol 1e-13)
+PASS  G2 eps   linear n0g=1.5 n1g=0.04                               max|diff| 7.54e-18  (tol 1e-13)
+PASS  G2 1/eps exact n0g=(1.5-0.001j) n1g=(0.04-0.0002j)             max|diff| 4.93e-16  (tol 1e-13)
+PASS  G2 eps   exact n0g=(1.5-0.001j) n1g=(0.04-0.0002j)             max|diff| 1.14e-17  (tol 1e-13)
+PASS  G2 1/eps linear n0g=(1.5-0.001j) n1g=(0.04-0.0002j)            max|diff| 1.07e-15  (tol 1e-13)
+PASS  G2 eps   linear n0g=(1.5-0.001j) n1g=(0.04-0.0002j)            max|diff| 9.81e-18  (tol 1e-13)
+PASS  G2 1/eps exact n0g=(1.5-0.005j) n1g=(0.2-0.001j)               max|diff| 8.05e-16  (tol 1e-13)
+PASS  G2 eps   exact n0g=(1.5-0.005j) n1g=(0.2-0.001j)               max|diff| 6.86e-17  (tol 1e-13)
+PASS  G2 1/eps linear n0g=(1.5-0.005j) n1g=(0.2-0.001j)              max|diff| 2.36e-16  (tol 1e-13)
+PASS  G2 eps   linear n0g=(1.5-0.005j) n1g=(0.2-0.001j)              max|diff| 6.71e-17  (tol 1e-13)
+G3  TM against psmgrating.rcwa pol='pi' (exact eps)
+PASS  G3 lumerical_R th=+0.00 DE_R                                   max|diff| 2.49e-13  (tol 1e-10)
+PASS  G3 lumerical_R th=+0.00 DE_T                                   max|diff| 1.68e-13  (tol 1e-10)
+PASS  G3 lumerical_R th=+0.00 lossy TM DE_R                          max|diff| 1.25e-13  (tol 1e-10)
+PASS  G3 lumerical_R th=+0.00 lossy TE DE_R                          max|diff| 1.06e-13  (tol 1e-10)
+PASS  G3 lumerical_R th=-14.00 DE_R                                  max|diff| 6.08e-14  (tol 1e-10)
+PASS  G3 lumerical_R th=-14.00 DE_T                                  max|diff| 1.01e-12  (tol 1e-10)
+PASS  G3 lumerical_R th=-14.00 lossy TM DE_R                         max|diff| 7.33e-14  (tol 1e-10)
+PASS  G3 lumerical_R th=-14.00 lossy TE DE_R                         max|diff| 3.54e-14  (tol 1e-10)
+PASS  G3 lumerical_R th=+7.50 DE_R                                   max|diff| 3.58e-15  (tol 1e-10)
+PASS  G3 lumerical_R th=+7.50 DE_T                                   max|diff| 6.56e-14  (tol 1e-10)
+PASS  G3 lumerical_R th=+7.50 lossy TM DE_R                          max|diff| 4.34e-15  (tol 1e-10)
+PASS  G3 lumerical_R th=+7.50 lossy TE DE_R                          max|diff| 1.08e-14  (tol 1e-10)
+PASS  G3 lumerical_R th=-28.00 DE_R                                  max|diff| 3.96e-14  (tol 1e-10)
+PASS  G3 lumerical_R th=-28.00 DE_T                                  max|diff| 1.24e-13  (tol 1e-10)
+PASS  G3 lumerical_R th=-28.00 lossy TM DE_R                         max|diff| 1.04e-13  (tol 1e-10)
+PASS  G3 lumerical_R th=-28.00 lossy TE DE_R                         max|diff| 1.68e-13  (tol 1e-10)
+PASS  G3 lumerical_R th=+20.00 DE_R                                  max|diff| 1.09e-16  (tol 1e-10)
+PASS  G3 lumerical_R th=+20.00 DE_T                                  max|diff| 2.73e-13  (tol 1e-10)
+PASS  G3 lumerical_R th=+20.00 lossy TM DE_R                         max|diff| 2.50e-16  (tol 1e-10)
+PASS  G3 lumerical_R th=+20.00 lossy TE DE_R                         max|diff| 1.87e-15  (tol 1e-10)
+PASS  G3 lumerical_T th=+0.00 DE_R                                   max|diff| 6.91e-18  (tol 1e-10)
+PASS  G3 lumerical_T th=+0.00 DE_T                                   max|diff| 2.14e-13  (tol 1e-10)
+PASS  G3 lumerical_T th=+0.00 lossy TM DE_R                          max|diff| 1.68e-17  (tol 1e-10)
+PASS  G3 lumerical_T th=+0.00 lossy TE DE_R                          max|diff| 9.09e-18  (tol 1e-10)
+PASS  G3 lumerical_T th=+5.00 DE_R                                   max|diff| 8.65e-18  (tol 1e-10)
+PASS  G3 lumerical_T th=+5.00 DE_T                                   max|diff| 5.44e-15  (tol 1e-10)
+PASS  G3 lumerical_T th=+5.00 lossy TM DE_R                          max|diff| 1.16e-17  (tol 1e-10)
+PASS  G3 lumerical_T th=+5.00 lossy TE DE_R                          max|diff| 2.46e-17  (tol 1e-10)
+PASS  G3 lumerical_T th=+28.00 DE_R                                  max|diff| 1.34e-17  (tol 1e-10)
+PASS  G3 lumerical_T th=+28.00 DE_T                                  max|diff| 1.60e-13  (tol 1e-10)
+PASS  G3 lumerical_T th=+28.00 lossy TM DE_R                         max|diff| 4.82e-17  (tol 1e-10)
+PASS  G3 lumerical_T th=+28.00 lossy TE DE_R                         max|diff| 7.01e-17  (tol 1e-10)
+PASS  G3 lumerical_T th=+40.00 DE_R                                  max|diff| 1.67e-17  (tol 1e-10)
+PASS  G3 lumerical_T th=+40.00 DE_T                                  max|diff| 2.31e-13  (tol 1e-10)
+PASS  G3 lumerical_T th=+40.00 lossy TM DE_R                         max|diff| 3.78e-18  (tol 1e-10)
+PASS  G3 lumerical_T th=+40.00 lossy TE DE_R                         max|diff| 6.14e-17  (tol 1e-10)
+PASS  G3 zemax_kba_R th=-45.00 DE_R                                  max|diff| 3.81e-13  (tol 1e-10)
+PASS  G3 zemax_kba_R th=-45.00 DE_T                                  max|diff| 2.25e-13  (tol 1e-10)
+PASS  G3 zemax_kba_R th=-45.00 lossy TM DE_R                         max|diff| 1.71e-13  (tol 1e-10)
+PASS  G3 zemax_kba_R th=-45.00 lossy TE DE_R                         max|diff| 1.89e-14  (tol 1e-10)
+PASS  G3 zemax_kba_R th=-22.50 DE_R                                  max|diff| 2.61e-14  (tol 1e-10)
+PASS  G3 zemax_kba_R th=-22.50 DE_T                                  max|diff| 1.86e-12  (tol 1e-10)
+PASS  G3 zemax_kba_R th=-22.50 lossy TM DE_R                         max|diff| 2.35e-15  (tol 1e-10)
+PASS  G3 zemax_kba_R th=-22.50 lossy TE DE_R                         max|diff| 1.18e-15  (tol 1e-10)
+PASS  G3 zemax_kba_R th=+0.00 DE_R                                   max|diff| 1.15e-13  (tol 1e-10)
+PASS  G3 zemax_kba_R th=+0.00 DE_T                                   max|diff| 2.55e-15  (tol 1e-10)
+PASS  G3 zemax_kba_R th=+0.00 lossy TM DE_R                          max|diff| 4.97e-14  (tol 1e-10)
+PASS  G3 zemax_kba_R th=+0.00 lossy TE DE_R                          max|diff| 1.48e-14  (tol 1e-10)
+PASS  G3 zemax_kba_R th=+10.00 DE_R                                  max|diff| 3.17e-16  (tol 1e-10)
+PASS  G3 zemax_kba_R th=+10.00 DE_T                                  max|diff| 3.53e-14  (tol 1e-10)
+PASS  G3 zemax_kba_R th=+10.00 lossy TM DE_R                         max|diff| 1.36e-15  (tol 1e-10)
+PASS  G3 zemax_kba_R th=+10.00 lossy TE DE_R                         max|diff| 1.53e-15  (tol 1e-10)
+PASS  G3 unslanted_T th=+33.86 DE_R                                  max|diff| 5.61e-17  (tol 1e-10)
+PASS  G3 unslanted_T th=+33.86 DE_T                                  max|diff| 1.71e-12  (tol 1e-10)
+PASS  G3 unslanted_T th=+33.86 lossy TM DE_R                         max|diff| 1.94e-17  (tol 1e-10)
+PASS  G3 unslanted_T th=+33.86 lossy TE DE_R                         max|diff| 6.87e-17  (tol 1e-10)
+PASS  G3 unslanted_T th=+36.00 DE_R                                  max|diff| 4.61e-17  (tol 1e-10)
+PASS  G3 unslanted_T th=+36.00 DE_T                                  max|diff| 3.82e-13  (tol 1e-10)
+PASS  G3 unslanted_T th=+36.00 lossy TM DE_R                         max|diff| 1.15e-16  (tol 1e-10)
+PASS  G3 unslanted_T th=+36.00 lossy TE DE_R                         max|diff| 3.38e-17  (tol 1e-10)
+PASS  G3 unslanted_T th=+30.00 DE_R                                  max|diff| 4.92e-17  (tol 1e-10)
+PASS  G3 unslanted_T th=+30.00 DE_T                                  max|diff| 5.84e-14  (tol 1e-10)
+PASS  G3 unslanted_T th=+30.00 lossy TM DE_R                         max|diff| 1.80e-16  (tol 1e-10)
+PASS  G3 unslanted_T th=+30.00 lossy TE DE_R                         max|diff| 1.15e-17  (tol 1e-10)
+PASS  G3 unslanted_T_rot5 th=+38.86 DE_R                             max|diff| 6.28e-17  (tol 1e-10)
+PASS  G3 unslanted_T_rot5 th=+38.86 DE_T                             max|diff| 6.21e-13  (tol 1e-10)
+PASS  G3 unslanted_T_rot5 th=+38.86 lossy TM DE_R                    max|diff| 6.69e-18  (tol 1e-10)
+PASS  G3 unslanted_T_rot5 th=+38.86 lossy TE DE_R                    max|diff| 1.02e-17  (tol 1e-10)
+PASS  G3 unslanted_T_rot5 th=+41.00 DE_R                             max|diff| 6.38e-17  (tol 1e-10)
+PASS  G3 unslanted_T_rot5 th=+41.00 DE_T                             max|diff| 3.35e-13  (tol 1e-10)
+PASS  G3 unslanted_T_rot5 th=+41.00 lossy TM DE_R                    max|diff| 3.00e-17  (tol 1e-10)
+PASS  G3 unslanted_T_rot5 th=+41.00 lossy TE DE_R                    max|diff| 8.52e-17  (tol 1e-10)
+PASS  G3 unslanted_T_rot5 th=+35.00 DE_R                             max|diff| 5.74e-17  (tol 1e-10)
+PASS  G3 unslanted_T_rot5 th=+35.00 DE_T                             max|diff| 1.02e-12  (tol 1e-10)
+PASS  G3 unslanted_T_rot5 th=+35.00 lossy TM DE_R                    max|diff| 4.67e-17  (tol 1e-10)
+PASS  G3 unslanted_T_rot5 th=+35.00 lossy TE DE_R                    max|diff| 4.21e-18  (tol 1e-10)
+G4  TE/TM, lossless/lossy against validation/rcw_tm/rcw_rigorous.py (run 007, 2026-07-28)
+PASS  G4 TE lam=545.0 D0=0 chi1/chi0=0 DE_R                          max|diff| 3.21e-14  (tol 1e-09)
+PASS  G4 TE lam=545.0 D0=0 chi1/chi0=0 DE_T                          max|diff| 2.09e-13  (tol 1e-09)
+PASS  G4 TM lam=545.0 D0=0 chi1/chi0=0 DE_R                          max|diff| 2.79e-14  (tol 1e-09)
+PASS  G4 TM lam=545.0 D0=0 chi1/chi0=0 DE_T                          max|diff| 3.82e-12  (tol 1e-09)
+PASS  G4 TE lam=545.0 D0=0 chi1/chi0=1 DE_R                          max|diff| 3.21e-14  (tol 1e-09)
+PASS  G4 TE lam=545.0 D0=0 chi1/chi0=1 DE_T                          max|diff| 2.09e-13  (tol 1e-09)
+PASS  G4 TM lam=545.0 D0=0 chi1/chi0=1 DE_R                          max|diff| 2.79e-14  (tol 1e-09)
+PASS  G4 TM lam=545.0 D0=0 chi1/chi0=1 DE_T                          max|diff| 3.82e-12  (tol 1e-09)
+PASS  G4 TE lam=545.0 D0=1 chi1/chi0=0 DE_R                          max|diff| 2.20e-14  (tol 1e-09)
+PASS  G4 TE lam=545.0 D0=1 chi1/chi0=0 DE_T                          max|diff| 2.03e-14  (tol 1e-09)
+PASS  G4 TM lam=545.0 D0=1 chi1/chi0=0 DE_R                          max|diff| 2.63e-14  (tol 1e-09)
+PASS  G4 TM lam=545.0 D0=1 chi1/chi0=0 DE_T                          max|diff| 4.54e-14  (tol 1e-09)
+PASS  G4 TE lam=545.0 D0=1 chi1/chi0=1 DE_R                          max|diff| 3.60e-14  (tol 1e-09)
+PASS  G4 TE lam=545.0 D0=1 chi1/chi0=1 DE_T                          max|diff| 2.42e-14  (tol 1e-09)
+PASS  G4 TM lam=545.0 D0=1 chi1/chi0=1 DE_R                          max|diff| 8.19e-15  (tol 1e-09)
+PASS  G4 TM lam=545.0 D0=1 chi1/chi0=1 DE_T                          max|diff| 6.25e-14  (tol 1e-09)
+PASS  G4 TE lam=557.0 D0=0 chi1/chi0=0 DE_R                          max|diff| 3.61e-14  (tol 1e-09)
+PASS  G4 TE lam=557.0 D0=0 chi1/chi0=0 DE_T                          max|diff| 6.85e-17  (tol 1e-09)
+PASS  G4 TM lam=557.0 D0=0 chi1/chi0=0 DE_R                          max|diff| 5.76e-14  (tol 1e-09)
+PASS  G4 TM lam=557.0 D0=0 chi1/chi0=0 DE_T                          max|diff| 2.24e-16  (tol 1e-09)
+PASS  G4 TE lam=557.0 D0=0 chi1/chi0=1 DE_R                          max|diff| 3.61e-14  (tol 1e-09)
+PASS  G4 TE lam=557.0 D0=0 chi1/chi0=1 DE_T                          max|diff| 6.85e-17  (tol 1e-09)
+PASS  G4 TM lam=557.0 D0=0 chi1/chi0=1 DE_R                          max|diff| 5.76e-14  (tol 1e-09)
+PASS  G4 TM lam=557.0 D0=0 chi1/chi0=1 DE_T                          max|diff| 2.24e-16  (tol 1e-09)
+PASS  G4 TE lam=557.0 D0=1 chi1/chi0=0 DE_R                          max|diff| 4.92e-14  (tol 1e-09)
+PASS  G4 TE lam=557.0 D0=1 chi1/chi0=0 DE_T                          max|diff| 1.29e-17  (tol 1e-09)
+PASS  G4 TM lam=557.0 D0=1 chi1/chi0=0 DE_R                          max|diff| 1.40e-13  (tol 1e-09)
+PASS  G4 TM lam=557.0 D0=1 chi1/chi0=0 DE_T                          max|diff| 1.71e-17  (tol 1e-09)
+PASS  G4 TE lam=557.0 D0=1 chi1/chi0=1 DE_R                          max|diff| 7.56e-14  (tol 1e-09)
+PASS  G4 TE lam=557.0 D0=1 chi1/chi0=1 DE_T                          max|diff| 1.48e-17  (tol 1e-09)
+PASS  G4 TM lam=557.0 D0=1 chi1/chi0=1 DE_R                          max|diff| 4.05e-14  (tol 1e-09)
+PASS  G4 TM lam=557.0 D0=1 chi1/chi0=1 DE_T                          max|diff| 1.09e-16  (tol 1e-09)
+PASS  G4 TE lam=560.0 D0=0 chi1/chi0=0 DE_R                          max|diff| 2.86e-13  (tol 1e-09)
+PASS  G4 TE lam=560.0 D0=0 chi1/chi0=0 DE_T                          max|diff| 1.48e-16  (tol 1e-09)
+PASS  G4 TM lam=560.0 D0=0 chi1/chi0=0 DE_R                          max|diff| 1.75e-13  (tol 1e-09)
+PASS  G4 TM lam=560.0 D0=0 chi1/chi0=0 DE_T                          max|diff| 1.09e-16  (tol 1e-09)
+PASS  G4 TE lam=560.0 D0=0 chi1/chi0=1 DE_R                          max|diff| 2.86e-13  (tol 1e-09)
+PASS  G4 TE lam=560.0 D0=0 chi1/chi0=1 DE_T                          max|diff| 1.48e-16  (tol 1e-09)
+PASS  G4 TM lam=560.0 D0=0 chi1/chi0=1 DE_R                          max|diff| 1.75e-13  (tol 1e-09)
+PASS  G4 TM lam=560.0 D0=0 chi1/chi0=1 DE_T                          max|diff| 1.09e-16  (tol 1e-09)
+PASS  G4 TE lam=560.0 D0=1 chi1/chi0=0 DE_R                          max|diff| 1.49e-13  (tol 1e-09)
+PASS  G4 TE lam=560.0 D0=1 chi1/chi0=0 DE_T                          max|diff| 1.46e-16  (tol 1e-09)
+PASS  G4 TM lam=560.0 D0=1 chi1/chi0=0 DE_R                          max|diff| 1.51e-13  (tol 1e-09)
+PASS  G4 TM lam=560.0 D0=1 chi1/chi0=0 DE_T                          max|diff| 1.95e-16  (tol 1e-09)
+PASS  G4 TE lam=560.0 D0=1 chi1/chi0=1 DE_R                          max|diff| 1.20e-13  (tol 1e-09)
+PASS  G4 TE lam=560.0 D0=1 chi1/chi0=1 DE_T                          max|diff| 3.11e-17  (tol 1e-09)
+PASS  G4 TM lam=560.0 D0=1 chi1/chi0=1 DE_R                          max|diff| 9.91e-14  (tol 1e-09)
+PASS  G4 TM lam=560.0 D0=1 chi1/chi0=1 DE_T                          max|diff| 2.25e-17  (tol 1e-09)
+PASS  G4 TE lam=557.6 D0=0 chi1/chi0=0 DE_R                          max|diff| 1.18e-13  (tol 1e-09)
+PASS  G4 TE lam=557.6 D0=0 chi1/chi0=0 DE_T                          max|diff| 5.26e-17  (tol 1e-09)
+PASS  G4 TM lam=557.6 D0=0 chi1/chi0=0 DE_R                          max|diff| 8.42e-14  (tol 1e-09)
+PASS  G4 TM lam=557.6 D0=0 chi1/chi0=0 DE_T                          max|diff| 1.45e-16  (tol 1e-09)
+PASS  G4 TE lam=557.6 D0=0 chi1/chi0=1 DE_R                          max|diff| 1.18e-13  (tol 1e-09)
+PASS  G4 TE lam=557.6 D0=0 chi1/chi0=1 DE_T                          max|diff| 5.26e-17  (tol 1e-09)
+PASS  G4 TM lam=557.6 D0=0 chi1/chi0=1 DE_R                          max|diff| 8.42e-14  (tol 1e-09)
+PASS  G4 TM lam=557.6 D0=0 chi1/chi0=1 DE_T                          max|diff| 1.45e-16  (tol 1e-09)
+PASS  G4 TE lam=557.6 D0=1 chi1/chi0=0 DE_R                          max|diff| 3.08e-14  (tol 1e-09)
+PASS  G4 TE lam=557.6 D0=1 chi1/chi0=0 DE_T                          max|diff| 2.80e-17  (tol 1e-09)
+PASS  G4 TM lam=557.6 D0=1 chi1/chi0=0 DE_R                          max|diff| 7.11e-14  (tol 1e-09)
+PASS  G4 TM lam=557.6 D0=1 chi1/chi0=0 DE_T                          max|diff| 8.18e-17  (tol 1e-09)
+PASS  G4 TE lam=557.6 D0=1 chi1/chi0=1 DE_R                          max|diff| 2.89e-14  (tol 1e-09)
+PASS  G4 TE lam=557.6 D0=1 chi1/chi0=1 DE_T                          max|diff| 3.48e-17  (tol 1e-09)
+PASS  G4 TM lam=557.6 D0=1 chi1/chi0=1 DE_R                          max|diff| 6.44e-14  (tol 1e-09)
+PASS  G4 TM lam=557.6 D0=1 chi1/chi0=1 DE_T                          max|diff| 3.09e-17  (tol 1e-09)
+PASS  G4 printed: TM D0=1 lam=557 nm eta(l=-1) = 0.6623948815        max|diff| 8.20e-12  (tol 2e-09)
+PASS  G4 printed: TM lossless Bragg peak 0.999435 at 557.6 nm        max|diff| 2.81e-07  (tol 2e-06)
+PASS  G4 printed: TM lossless energy |sum-1| (run 007: 8e-15)        max|diff| 3.71e-14  (tol 1e-12)
+G5  energy conservation (TM lossless) and absorption (lossy sum < 1)
+PASS  G5 lumerical_R th=+0.00 TM sum_DE                              max|diff| 3.39e-13  (tol 1e-10)
+PASS  G5 lumerical_R th=+0.00 TM chi0=1e-3 absorbs                   sum_DE 0.909354
+PASS  G5 lumerical_R th=-14.00 TM sum_DE                             max|diff| 4.56e-13  (tol 1e-10)
+PASS  G5 lumerical_R th=-14.00 TM chi0=1e-3 absorbs                  sum_DE 0.841427
+PASS  G5 lumerical_R th=+7.50 TM sum_DE                              max|diff| 8.57e-14  (tol 1e-10)
+PASS  G5 lumerical_R th=+7.50 TM chi0=1e-3 absorbs                   sum_DE 0.870029
+PASS  G5 lumerical_R th=-28.00 TM sum_DE                             max|diff| 1.02e-13  (tol 1e-10)
+PASS  G5 lumerical_R th=-28.00 TM chi0=1e-3 absorbs                  sum_DE 0.904996
+PASS  G5 lumerical_R th=+20.00 TM sum_DE                             max|diff| 3.19e-13  (tol 1e-10)
+PASS  G5 lumerical_R th=+20.00 TM chi0=1e-3 absorbs                  sum_DE 0.864036
+PASS  G5 lumerical_T th=+0.00 TM sum_DE                              max|diff| 2.55e-15  (tol 1e-10)
+PASS  G5 lumerical_T th=+0.00 TM chi0=1e-3 absorbs                   sum_DE 0.865551
+PASS  G5 lumerical_T th=+5.00 TM sum_DE                              max|diff| 3.53e-14  (tol 1e-10)
+PASS  G5 lumerical_T th=+5.00 TM chi0=1e-3 absorbs                   sum_DE 0.868433
+PASS  G5 lumerical_T th=+28.00 TM sum_DE                             max|diff| 6.55e-14  (tol 1e-10)
+PASS  G5 lumerical_T th=+28.00 TM chi0=1e-3 absorbs                  sum_DE 0.861904
+PASS  G5 lumerical_T th=+40.00 TM sum_DE                             max|diff| 1.15e-13  (tol 1e-10)
+PASS  G5 lumerical_T th=+40.00 TM chi0=1e-3 absorbs                  sum_DE 0.837240
+PASS  G5 zemax_kba_R th=-45.00 TM sum_DE                             max|diff| 5.34e-13  (tol 1e-10)
+PASS  G5 zemax_kba_R th=-45.00 TM chi0=1e-3 absorbs                  sum_DE 0.902130
+PASS  G5 zemax_kba_R th=-22.50 TM sum_DE                             max|diff| 7.10e-13  (tol 1e-10)
+PASS  G5 zemax_kba_R th=-22.50 TM chi0=1e-3 absorbs                  sum_DE 0.880284
+PASS  G5 zemax_kba_R th=+0.00 TM sum_DE                              max|diff| 1.29e-13  (tol 1e-10)
+PASS  G5 zemax_kba_R th=+0.00 TM chi0=1e-3 absorbs                   sum_DE 0.915288
+PASS  G5 zemax_kba_R th=+10.00 TM sum_DE                             max|diff| 3.42e-13  (tol 1e-10)
+PASS  G5 zemax_kba_R th=+10.00 TM chi0=1e-3 absorbs                  sum_DE 0.890021
+PASS  G5 unslanted_T th=+33.86 TM sum_DE                             max|diff| 1.55e-12  (tol 1e-10)
+PASS  G5 unslanted_T th=+33.86 TM chi0=1e-3 absorbs                  sum_DE 0.738781
+PASS  G5 unslanted_T th=+36.00 TM sum_DE                             max|diff| 4.89e-13  (tol 1e-10)
+PASS  G5 unslanted_T th=+36.00 TM chi0=1e-3 absorbs                  sum_DE 0.733561
+PASS  G5 unslanted_T th=+30.00 TM sum_DE                             max|diff| 2.31e-14  (tol 1e-10)
+PASS  G5 unslanted_T th=+30.00 TM chi0=1e-3 absorbs                  sum_DE 0.747647
+PASS  G5 unslanted_T_rot5 th=+38.86 TM sum_DE                        max|diff| 8.68e-13  (tol 1e-10)
+PASS  G5 unslanted_T_rot5 th=+38.86 TM chi0=1e-3 absorbs             sum_DE 0.729728
+PASS  G5 unslanted_T_rot5 th=+41.00 TM sum_DE                        max|diff| 8.81e-13  (tol 1e-10)
+PASS  G5 unslanted_T_rot5 th=+41.00 TM chi0=1e-3 absorbs             sum_DE 0.717983
+PASS  G5 unslanted_T_rot5 th=+35.00 TM sum_DE                        max|diff| 2.20e-14  (tol 1e-10)
+PASS  G5 unslanted_T_rot5 th=+35.00 TM chi0=1e-3 absorbs             sum_DE 0.735482
+G6  TM truncation L = 10 against L = 14 over each angle sweep
+PASS  G6 lumerical_R TM L10 vs L14 (R and T faces)                   max|diff| 5.68e-13  (tol 1e-10)
+PASS  G6 lumerical_T TM L10 vs L14 (R and T faces)                   max|diff| 4.54e-13  (tol 1e-10)
+PASS  G6 zemax_kba_R TM L10 vs L14 (R and T faces)                   max|diff| 6.05e-13  (tol 1e-10)
+PASS  G6 unslanted_T TM L10 vs L14 (R and T faces)                   max|diff| 5.75e-13  (tol 1e-10)
+PASS  G6 unslanted_T_rot5 TM L10 vs L14 (R and T faces)              max|diff| 8.44e-13  (tol 1e-10)
+G7  chi -> 0 continuity
+PASS  G7 TE eta(chi=1e-12) vs eta(0)                                 max|diff| 7.28e-11  (tol 1e-09)
+PASS  G7 TM eta(chi=1e-12) vs eta(0)                                 max|diff| 7.20e-11  (tol 1e-09)
+
+0 failure(s); 0 gate(s) skipped for want of an oracle on this machine: []
+VERIFIED 2026-10-16 on the benchmark PC with both oracles present: 0 failures, 0 skips (evidence/tm_referee_gates.txt)
