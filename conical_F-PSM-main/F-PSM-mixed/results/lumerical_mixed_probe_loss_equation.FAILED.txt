@@ -1,0 +1,19 @@
+Lumerical loss probe, route 'equation', 3 harmonics, 160 layers per period; Lumerical 8.35.4609
+
+P01 uniform slab n0 - i 0.02 (d 6.0 um): route equation, token 1i, Lumerical k sign +1
+   FAILED: RuntimeError: the index equation did not take: set '1.5+0.0*cos((2*pi*1.5/0.55)*(x* (-0.469472)+y*(0)+z*(1.88295)))+(0.02+0.0*cos((2*pi*1.5/0.55)*(x* (-0.469472)+y*(0)+z*(1.88295))+0.0))*1i', read back '1.5+0*cos((2*pi*1.5/0.55)*(x* (-0.469472)+y*(0)+z*(1.88295)))'
+
+P01 uniform slab n0 - i 0.02 (d 6.0 um): route equation, token 1i, Lumerical k sign -1
+   FAILED: RuntimeError: the index equation did not take: set '1.5+0.0*cos((2*pi*1.5/0.55)*(x* (-0.469472)+y*(0)+z*(1.88295)))-(0.02+0.0*cos((2*pi*1.5/0.55)*(x* (-0.469472)+y*(0)+z*(1.88295))+0.0))*1i', read back '1.5+0*cos((2*pi*1.5/0.55)*(x* (-0.469472)+y*(0)+z*(1.88295)))'
+
+P01 uniform slab n0 - i 0.02 (d 6.0 um): route equation, token i, Lumerical k sign +1
+   FAILED: RuntimeError: the index equation did not take: set '1.5+0.0*cos((2*pi*1.5/0.55)*(x* (-0.469472)+y*(0)+z*(1.88295)))+(0.02+0.0*cos((2*pi*1.5/0.55)*(x* (-0.469472)+y*(0)+z*(1.88295))+0.0))*i', read back '1.5+0*cos((2*pi*1.5/0.55)*(x* (-0.469472)+y*(0)+z*(1.88295)))'
+
+P01 uniform slab n0 - i 0.02 (d 6.0 um): route equation, token i, Lumerical k sign -1
+   FAILED: RuntimeError: the index equation did not take: set '1.5+0.0*cos((2*pi*1.5/0.55)*(x* (-0.469472)+y*(0)+z*(1.88295)))-(0.02+0.0*cos((2*pi*1.5/0.55)*(x* (-0.469472)+y*(0)+z*(1.88295))+0.0))*i', read back '1.5+0*cos((2*pi*1.5/0.55)*(x* (-0.469472)+y*(0)+z*(1.88295)))'
+
+P01 uniform slab n0 - i 0.02 (d 6.0 um): route equation, token 1j, Lumerical k sign +1
+   FAILED: RuntimeError: the index equation did not take: set '1.5+0.0*cos((2*pi*1.5/0.55)*(x* (-0.469472)+y*(0)+z*(1.88295)))+(0.02+0.0*cos((2*pi*1.5/0.55)*(x* (-0.469472)+y*(0)+z*(1.88295))+0.0))*1j', read back '1.5+0*cos((2*pi*1.5/0.55)*(x* (-0.469472)+y*(0)+z*(1.88295)))'
+
+P01 uniform slab n0 - i 0.02 (d 6.0 um): route equation, token 1j, Lumerical k sign -1
+   FAILED: RuntimeError: the index equation did not take: set '1.5+0.0*cos((2*pi*1.5/0.55)*(x* (-0.469472)+y*(0)+z*(1.88295)))-(0.02+0.0*cos((2*pi*1.5/0.55)*(x* (-0.469472)+y*(0)+z*(1.88295))+0.0))*1j', read back '1.5+0*cos((2*pi*1.5/0.55)*(x* (-0.469472)+y*(0)+z*(1.88295)))'

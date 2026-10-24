@@ -1,0 +1,6 @@
+convergence ladder, A05_slanted_T_n024_k01200_01500_d000_phi150, theta0 25.0 deg, phi 150.0 deg
+referee (21 orders): eta_s 0.0489532 eta_p 0.0336021 absorbed s 0.9053685 p 0.9124841
+H3 L80: eta_s 0.0489301 eta_p 0.0335852 absorbed s 0.9053881 p 0.9124966
+H3 L160: eta_s 0.0489448 eta_p 0.0335959 absorbed s 0.9053757 p 0.9124888
+H3 L320: eta_s 0.0489483 eta_p 0.0335985 absorbed s 0.9053724 p 0.9124866
+H5 L160: eta_s 0.0489448 eta_p 0.0335959 absorbed s 0.9053757 p 0.9124888

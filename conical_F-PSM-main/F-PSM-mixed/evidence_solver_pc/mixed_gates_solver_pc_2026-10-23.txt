@@ -1,0 +1,16 @@
+PASS  M1 material: FFT 1/N^2 vs closed form max 2.2e-16 (gate 1e-13); lossless referee via complex dicts vs native 2.8e-13 (gate 1e-12)
+PASS  M2 complex referee vs David's Moharam RCWA: 87 rows of his sweep: max e(J, J_David) 7.0e-12, max |d eta| 6.6e-12 (gate 1e-10); absorbed fractions outside his eigenvalue bracket by at most 0.0e+00 (gate 1e-10)
+PASS  M5 his benchmark.csv errors reproduced: max |corrected error - csv| 5.2e-12, |leading error - csv| 3.4e-12 (gate 1e-11)
+PASS  M3 planar limit with loss: max |dDE| over 5 gratings x 2 angles x 2 pols x all orders, chi0 1e-3, chi1 5e-4 = 8.3e-13 (gate 1e-10)
+PASS  M4 lossless limit of his mixed evaluator = transcription: max |dJ| over 6 points = 1.7e-14 (gate 1e-12)
+PASS  M10 his archived leading() = four-state model off Bragg: max |dJ| over 18 points (u = -2, 0, 2; n1 .012, .096) = 2.3e-14 (gate 1e-12)
+INFO  M10 the fringe-basis scalar channels (our Eq. 58-62 reading) differ from his leading() off Bragg by 3.2e-05 .. 4.8e-03 in the efficiency metric: finding 2 of 2026-10-23 was a basis definition, as his response states (revised Sec. 4.A)
+PASS  M6 uniform absorbing slab vs exact Fresnel: max |dT|, |dR| over 6 points x 2 pols = 4.0e-14 (gate 1e-12)
+INFO  M6 P01 oracle (lumerical_R model, n1 = 0, kappa0 = 0.02, d = 6 um): theta 0 phi 0: T0 s 0.064463 p 0.064463; R0 s 0.000045 p 0.000045; power sum s 0.064508 p 0.064508
+INFO  M6 P01 oracle (lumerical_R model, n1 = 0, kappa0 = 0.02, d = 6 um): theta 20 phi 150: T0 s 0.054065 p 0.054063; R0 s 0.000057 p 0.000033; power sum s 0.054122 p 0.054096
+PASS  M7 backward-companion guard (23 Oct revision): exact: Resonant eliminated backward companion; enlarge the backward core.; near: Resonant eliminated backward companion; enlarge the backward core.
+PASS  M8 mirror symmetry phi -> -phi with absorption: max |dDE| over 3 configs x 2 angles = 0.0e+00 (gate 1e-12)
+PASS  M9 published absorbing point (2026-10-16): lumerical_R theta 0, chi0 1e-3: R+1 TE 0.735964 TM 0.668751, power sums 0.915638 / 0.909354 (published 0.735964 / 0.668751, 0.915638 / 0.909354; max |d| 4.0e-07, gate 1e-6)
+PASS  M11 his 30 finite certificates bound the observed error: 0 of 30 above E19 (tolerance 1e-3 relative + 1e-11); observed/E19 in [1.0000, 1.0008] over the 27 non-zero bounds (the two 1e-90 one-sided cases: observed error at the referee floor)
+
+0 failure(s) of 11 gates; 665 s; 2026-10-23

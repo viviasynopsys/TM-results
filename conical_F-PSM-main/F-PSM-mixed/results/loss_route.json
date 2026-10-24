@@ -1,0 +1,13 @@
+{
+ "route": "import",
+ "k_sign": 1,
+ "imag_token": "n+ik array",
+ "p01_max_dev": 1.4366285938649526e-13,
+ "p02_max_dev": 6.721234856343905e-05,
+ "p02_pass": true,
+ "harmonics": 3,
+ "layers": 160,
+ "lumerical_version": "8.35.4609",
+ "date": "2026-10-23",
+ "status": "VERIFIED from the data on this PC"
+}

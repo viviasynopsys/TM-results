@@ -1,0 +1,12 @@
+Lumerical loss probe, route 'import', 3 harmonics, 160 layers per period; Lumerical 8.35.4609
+
+P01 uniform slab n0 - i 0.02 (d 6.0 um): route import, token n+ik array, Lumerical k sign +1
+   power sums s [0.06450845 0.05412243] p [0.06450845 0.05409634]
+   theta   0.0: T0 s 0.064463 (oracle 0.064463)  p 0.064463 (0.064463)   R0 s 0.000045 (0.000045)  p 0.000045 (0.000045)
+   theta  20.0: T0 s 0.054065 (oracle 0.054065)  p 0.054063 (0.054063)   R0 s 0.000057 (0.000057)  p 0.000033 (0.000033)
+   absorbing; max |T0 - Fresnel oracle| = 1.44e-13 (gate 1e-3)
+
+P01 established (VERIFIED from the data): {'route': 'import', 'k_sign': 1, 'imag_token': 'n+ik array', 'p01_max_dev': np.float64(1.4366285938649526e-13)}
+
+P02 lumerical_R theta 0, kappa0 1e-3: R+1 TE 0.735904 TM 0.668684; power sums s 0.915632 p 0.909348   (published referee: 0.735964 / 0.668751, sums 0.915638 / 0.909354; gate 2e-3 with the 160-layer staircase)
+P02 max |deviation| 6.72e-05: PASS

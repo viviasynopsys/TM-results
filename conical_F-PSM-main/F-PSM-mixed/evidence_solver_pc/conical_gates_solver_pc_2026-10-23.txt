@@ -1,0 +1,25 @@
+PASS  G1 planar reduction: max |dDE| over 5 gratings x 2 angles x 2 pols x all orders = 1.20e-12 (gate 1e-10)
+PASS  G2a power, five gratings x 5 azimuths x 3 angles: max |1 - sum| = 1.33e-12 (gate 1e-10)
+PASS  G3 Moharam-Gaylord Fig. 5 geometry: E perp K first max at d = 61.0 um, eta = 0.999961; H perp K at 122.5 um, eta = 0.999998 (report: 61, 122, > 0.99996)
+PASS  G4 Eq. (11) operator order: |1 - sum|: printed P_22 order 2.79e-02, derived order 2.02e-13
+PASS  G2b power, 504-point sweep: max |1 - sum| = 4.09e-12 (gate 1e-10)
+PASS  G5 Table 2 (18 cells, both models): worst relative deviation 9.18e-04 at Unslanted T L n1=0.096: printed 1.066e-01, here 1.0650e-01 (gate 2e-3 = 4-figure rounding + referee floor)
+PASS  G8 Sec. 5.C numbers: closed/open 401/103 (401/103); worst C 1.5264e-02 at Unslanted T phi 120 n1 0.096 u 2.0 (1.5264e-2, Unslanted T 120 0.096 2); worst L 1.0650e-01 (1.0651e-1); 268-subset C 4.0288e-05 (4.029e-5), L 1.9891e-03 (1.990e-3); mu<=0.016 incl. open C 2.7440e-04 (2.745e-4)
+PASS  G6 Table 3 certificates: all twelve observed errors within [0.99, 1.0005] x E_19
+PASS  G7 Table 4 certificates: all nine observed errors within [0.99, 1.0005] x E_inf
+PASS  G9 scalar channels = four-state model at Bragg: max e(C_scalar, C_4state) at u = 0 over 24 points = 4.60e-14
+PASS  G10 mirror symmetries: max |dDE| under z-mirror and x'-mirror = 2.44e-13
+INFO  G11 corrected conical model at phi = 0 on the five benchmark gratings (one length unit = um):
+      case              theta     |TE: F-PSM(Sep) - RCWA|  |TE: conical C - RCWA|  |TE: conical C - F-PSM(Sep)|  |TM: conical C - RCWA|  TM RCWA
+      lumerical_R         0.000   7.34e-05                 7.34e-05               3.03e-08                     5.97e-05             0.736870
+      lumerical_R         2.000   1.09e-05                 1.13e-05               3.85e-07                     1.59e-05             0.647503
+      lumerical_T         0.000   corrected model refused: a companion-companion gap in H_b vanishes: enlarge the core
+      lumerical_T         2.000   5.46e-03                 3.83e-05               5.50e-03                     7.84e-05             0.635392
+      zemax_kba_R       -45.000   1.65e-04                 1.65e-04               5.74e-08                     6.55e-05             0.694665
+      zemax_kba_R       -43.000   5.28e-05                 5.17e-05               1.15e-06                     2.56e-06             0.646840
+      unslanted_T        33.863   6.03e-07                 1.48e-06               8.75e-07                     4.40e-06             0.575192
+      unslanted_T        35.863   1.47e-06                 3.04e-07               1.16e-06                     5.00e-07             0.016258
+      unslanted_T_rot5   38.863   2.14e-06                 6.95e-07               1.44e-06                     2.99e-06             0.579853
+      unslanted_T_rot5   40.863   4.47e-07                 9.22e-07               4.76e-07                     7.93e-07             0.009640
+
+0 failure(s) of 12 gates; 1287 s; 2026-10-23

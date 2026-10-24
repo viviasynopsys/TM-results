@@ -1,0 +1,41 @@
+[
+ {
+  "grating": "mixed_slanted_T_phi150",
+  "phi_deg": 150.0,
+  "theta0_deg": 25.0,
+  "probe_case": "A02_slanted_T_n012_k00600_00750_d090_phi150_DELTAPROBE",
+  "lumerical_eta_s": 0.03751101072193403,
+  "referee_eta_s_plus_delta": 4.8375751541464265e-28,
+  "referee_eta_s_minus_delta": 0.037519871660108076,
+  "delta_sign": -1,
+  "theta_sign": 1,
+  "signal_order": 1,
+  "status": "VERIFIED from the data"
+ },
+ {
+  "grating": "mixed_slanted_R_phi150",
+  "phi_deg": 150.0,
+  "theta0_deg": 20.0,
+  "probe_case": "A12_slanted_R_n012_k00600_00750_d090_phi150_DELTAPROBE",
+  "lumerical_eta_s": 9.00402665501776e-17,
+  "referee_eta_s_plus_delta": 2.64345809879263e-27,
+  "referee_eta_s_minus_delta": 0.0405283799852761,
+  "delta_sign": 1,
+  "theta_sign": 1,
+  "signal_order": 1,
+  "status": "VERIFIED from the data"
+ },
+ {
+  "grating": "mixed_unslanted_T_phi150",
+  "phi_deg": 150.0,
+  "theta0_deg": 25.0,
+  "probe_case": "A22_unslanted_T_n012_k00600_00750_d090_phi150_DELTAPROBE",
+  "lumerical_eta_s": 0.038745239683596784,
+  "referee_eta_s_plus_delta": 1.079046134758161e-27,
+  "referee_eta_s_minus_delta": 0.03874916565863787,
+  "delta_sign": -1,
+  "theta_sign": 1,
+  "signal_order": 1,
+  "status": "VERIFIED from the data"
+ }
+]
